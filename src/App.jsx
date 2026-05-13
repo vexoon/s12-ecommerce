@@ -6,6 +6,7 @@ import './App.css'
 import Home from './pages/Home'
 import { Layout } from './layouts/Layout'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Categories from './pages/Categories'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <Layout>
      <Home />
+     <Categories />
     </Layout>
   )
 }

@@ -29,7 +29,7 @@ export default function AccordionX() {
           sx={{
             backgroundColor: "#252525",
             color: "white",
-            mb: 2,
+            mb: 0.1,
             borderRadius: "8px !important",
             "&:before": { display: "none" },
           }}
